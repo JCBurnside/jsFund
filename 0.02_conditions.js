@@ -25,13 +25,16 @@ if(wins>loses){
 	console.log("The sun was in our eyes.")
 }
 
-for(var i=1;i<=100;i++){
-	let s="";
-	if(i%3==0){
-		s+="Fizz";
-	}
-	if(i%5==0){
-		s+="Buzz";
-	}
-	console.log(s===""?i:s);
-}
+// for(var i=1;i<=100;i++){
+// 	let s="";
+// 	if(i%3==0){
+// 		s+="Fizz";
+// 	}
+// 	if(i%5==0){
+// 		s+="Buzz";
+// 	}
+// 	console.log(s===""?i:s);
+// }
+
+// for(var i=1;i<=100;i++){console.log(i%15===0?"FizzBuzz":i%3===0?"Fizz":i%5===0?"Buzz":i)}
+for(i=0;i<100;)console.log((++i%3?'':'Fizz')+(i%5?'':'Buzz')||i);
