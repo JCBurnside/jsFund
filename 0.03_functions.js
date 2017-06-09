@@ -44,3 +44,15 @@ try{
 }catch(e){
 	console.log(e);
 }
+var ctr=10;
+while(ctr>=0){
+	console.log(ctr==0?"Blast Off":ctr)
+	ctr--;
+}
+// for(var ctr0=0;++ctr<10;){
+// 	console.log(ctr)
+// }
+var array=[1,2,3,4,5,6,7,8,9,10];
+for(var ctr1 in array){
+	console.log(array[ctr1])
+}
